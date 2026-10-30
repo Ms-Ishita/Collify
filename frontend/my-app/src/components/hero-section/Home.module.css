@@ -1,0 +1,74 @@
+.home {
+  min-height: calc(100vh - 72px);
+  padding: 80px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+
+  background-image:
+    linear-gradient(#e5e7eb 1px, transparent 1px),
+    linear-gradient(90deg, #e5e7eb 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+/* Headings */
+.heading-primary {
+  font-size: 64px;
+  font-weight: 800;
+  color: #1f2937;
+  line-height: 1.1;
+}
+
+.heading-secondary {
+  font-size: 64px;
+  font-weight: 800;
+  color: #6366f1;
+  line-height: 1.1;
+  margin-top: 12px;
+}
+
+/* Description */
+.description {
+  max-width: 720px;
+  margin-top: 32px;
+  font-size: 20px;
+  line-height: 1.6;
+  color: #6b7280;
+}
+
+/* CTA buttons */
+.cta-group {
+  margin-top: 48px;
+  display: flex;
+  gap: 20px;
+}
+
+.btn {
+  padding: 14px 28px;
+  font-size: 16px;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.primary {
+  background-color: #6366f1;
+  color: white;
+  border: none;
+}
+
+.primary:hover {
+  background-color: #4f46e5;
+}
+
+.secondary {
+  background-color: white;
+  color: #111827;
+  border: 1.5px solid #111827;
+}
+
+.secondary:hover {
+  background-color: #f3f4f6;
+}
